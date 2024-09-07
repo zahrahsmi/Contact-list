@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 25%;
   position: relative;
   background-color: #00c3ff1d;
   border-radius: 10px;
@@ -56,6 +56,8 @@ form input {
 .inputdiv {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .form-actions {
