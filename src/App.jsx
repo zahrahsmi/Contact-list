@@ -16,7 +16,15 @@ const initialContact = {
 };
 
 const App = () => {
-  const [contacts, setContacts] = useState([]);
+  const [contacts, setContacts] = useState([
+    {
+      id: "1",
+      name: "zahra",
+      lastName: "hesami",
+      email: "zahrahesami026@gmail.com",
+      phone: "09366760939",
+    },
+  ]);
   const [search, setSearch] = useState("");
   const [message, setMessage] = useState();
   const [showMessage, setShowMessage] = useState();

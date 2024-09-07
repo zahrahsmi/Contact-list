@@ -19,6 +19,10 @@
   flex-grow: 1;
 }
 
+.contact-list {
+  margin-top: 20px;
+}
+
 .contact-list ul li {
   background-color: #00ccff0f;
   color: #6b6b6f;
